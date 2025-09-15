@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #004d40;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#hero {
+  background: url('https://source.unsplash.com/1600x600/?resort,beach') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+#hero h2 {
+  font-size: 2.5rem;
+}
+
+#hero button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background: #004d40;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+footer {
+  background: #004d40;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
